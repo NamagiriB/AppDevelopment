@@ -1,0 +1,52 @@
+#register, #login {
+  height:400px;
+  width: 400px;
+  border: 1px solid #d6d7da;
+  padding: 0px 15px 30px 15px;
+  border-radius: 5px;
+  font-family: Arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+  margin: 100px auto;
+  margin-top:20%;
+}
+
+body
+{
+  background-image: url("https://res.cloudinary.com/dwsmjmxqk/image/upload/v1694761209/pexels-picjumbocom-196643_ccofxk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+form label, form input {
+  /* display: block;
+  //margin-bottom: 10px; */
+  width: 90%
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #BDC7D8;
+
+}
+
+.button {
+  background-color: #c438ac ;
+  border-color: #a445b2;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #538e23;
+  margin-bottom:10px;
+}
